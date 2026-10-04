@@ -1,5 +1,5 @@
-from docter import __version__
-from docter.cli import main
+from doctor import __version__
+from doctor.cli import main
 
 
 def test_version():
@@ -8,4 +8,4 @@ def test_version():
 
 def test_main_prints_greeting(capsys):
     assert main([]) == 0
-    assert "Hello from docter!" in capsys.readouterr().out
+    assert "Hello from doctor!" in capsys.readouterr().out

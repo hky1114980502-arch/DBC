@@ -1,4 +1,4 @@
-# docter
+# doctor
 
 ## 开发环境
 
@@ -11,8 +11,8 @@ pip install -e ".[dev]"
 ## 运行
 
 ```bash
-docter            # 或 python -m docter
-docter --version
+doctor            # 或 python -m doctor
+doctor --version
 ```
 
 ## 测试

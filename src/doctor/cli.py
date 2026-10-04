@@ -1,15 +1,15 @@
-"""Command-line entry point for docter."""
+"""Command-line entry point for doctor."""
 
 import argparse
 
-from docter import __version__
+from doctor import __version__
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="docter")
+    parser = argparse.ArgumentParser(prog="doctor")
     parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     parser.parse_args(argv)
-    print("Hello from docter!")
+    print("Hello from doctor!")
     return 0
 
 
